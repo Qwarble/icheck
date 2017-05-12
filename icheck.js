@@ -404,7 +404,7 @@
           off(input, _indeterminate, false);
         }
       }
-
+      $(node).trigger('change');
       // Trigger callbacks
       callbacks(input, checked, state, keep);
     }
